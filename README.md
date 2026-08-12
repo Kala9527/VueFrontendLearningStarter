@@ -67,14 +67,6 @@ maccha-garden/
 `-- vite.config.ts
 ```
 
-## 命名建议
-
-仓库名可以继续保留为 `tea`，但项目展示名已经整理为 **Maccha Garden / 抹茶花园**。如果后续想重命名 GitHub 仓库，可以考虑：
-
-- `maccha-garden`
-- `matcha-storefront`
-- `vue-matcha-commerce`
-
 ## 依赖管理说明
 
 以下内容不会提交到仓库：
