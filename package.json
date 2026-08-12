@@ -2,7 +2,7 @@
   "name": "maccha-garden",
   "version": "1.0.0",
   "private": true,
-  "description": "A polished Vue 3 storefront demo for premium matcha products.",
+  "description": "帮助初学者快速掌握前端软件开发的 Vue 3 实战项目。",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3000",
