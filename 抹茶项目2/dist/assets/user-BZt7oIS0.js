@@ -1,1 +1,0 @@
-import{G as t,v as n,j as u}from"./index-G3po8Srl.js";const c=t("user",()=>{const s=n(null),r=u(()=>!!s.value);return{user:s,isLoggedIn:r,login:(e,o)=>{s.value={id:"1",email:e,name:e.split("@")[0],addresses:[]}},logout:()=>{s.value=null},register:(e,o,i)=>{s.value={id:"1",email:e,name:o,addresses:[]}}}});export{c as u};
