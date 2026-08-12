@@ -1,52 +1,54 @@
-# Maccha Garden
+# Maccha Garden 抹茶花园
 
-> A polished Vue 3 storefront demo for premium matcha products.
+> 一个基于 Vue 3 的精品抹茶电商前端展示项目。
 
-Maccha Garden is a front-end e-commerce showcase built around Japanese tea culture, product storytelling, and a calm shopping experience. It is designed as a portfolio-friendly Vue project: quick to run, easy to read, and visually complete enough for demos.
+[English README](./README.en.md)
 
-## Highlights
+Maccha Garden 是一个面向作品集展示的前端电商项目，围绕抹茶产品、日式茶文化和安静克制的购物体验设计。项目已经整理为可读、可运行、可继续扩展的 Vue 工程结构，适合用于 GitHub 展示、简历项目和二次开发。
 
-- Vue 3 + TypeScript + Vite single-page application
-- Product catalog, detail view, cart flow, login and register screens
-- Pinia state management for cart and product data
-- Responsive layout with custom CSS variables
-- Matcha-inspired visual system with reusable UI components
+## 项目亮点
 
-## Tech Stack
+- Vue 3 + TypeScript + Vite 单页应用
+- 商品首页、商品列表、商品详情、购物车、登录和注册页面
+- 使用 Pinia 管理购物车和商品状态
+- 响应式布局和自定义 CSS 变量视觉系统
+- 已清理 `node_modules`、`dist`、安装包和系统缓存文件
+
+## 技术栈
 
 - Vue 3
 - TypeScript
 - Vite
 - Vue Router
 - Pinia
-- Lucide Vue Next
+- @lucide/vue
 
-## Quick Start
+## 快速开始
 
-Install Node.js 20+ first. This repository does not commit `node_modules`, installer binaries, or build output.
+请先安装 Node.js 20 或更高版本。本仓库不提交依赖目录、构建产物或安装程序。
 
 ```bash
 npm install
 npm run dev
 ```
 
-Build and preview:
+构建和预览：
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Scripts
+## 可用脚本
 
 ```bash
-npm run dev       # start local dev server
-npm run build     # type-check and build production assets
-npm run preview   # preview production build
-npm run typecheck # run vue-tsc
+npm run dev       # 启动本地开发服务
+npm run build     # 类型检查并构建生产版本
+npm run preview   # 预览生产构建结果
+npm run typecheck # 运行 vue-tsc 类型检查
 ```
 
-## Project Structure
+## 项目结构
 
 ```text
 maccha-garden/
@@ -65,25 +67,29 @@ maccha-garden/
 `-- vite.config.ts
 ```
 
-## Naming
+## 命名建议
 
-The repository can stay as `tea`, but the public-facing project name is now **Maccha Garden**. If you rename the GitHub repository later, good candidates are:
+仓库名可以继续保留为 `tea`，但项目展示名已经整理为 **Maccha Garden / 抹茶花园**。如果后续想重命名 GitHub 仓库，可以考虑：
 
 - `maccha-garden`
 - `matcha-storefront`
 - `vue-matcha-commerce`
 
-## Dependency Policy
+## 依赖管理说明
 
-Generated and machine-specific files are intentionally ignored:
+以下内容不会提交到仓库：
 
 - `node_modules/`
 - `dist/`
-- local IDE folders
-- OS metadata
-- installer binaries such as `node-*.msi`
+- IDE 本地配置
+- 操作系统缓存文件
+- `node-*.msi` 等安装包
 
-Recreate dependencies with `npm install`.
+如需恢复依赖，执行：
+
+```bash
+npm install
+```
 
 ## License
 
