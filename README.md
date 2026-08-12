@@ -1,10 +1,10 @@
-# Tea Frontend Starter
+# Vue Frontend Learning Starter
 
 > 帮助初学者快速掌握前端软件开发的 Vue 3 实战项目。
 
 [English README](./README.en.md)
 
-Tea Frontend Starter 是一个适合前端初学者练手的完整小项目。它以抹茶商品展示和购物流程为例，把日常前端开发中常见的页面、组件、路由、状态管理、类型定义、样式组织和构建部署串在一起，让你不只“看语法”，而是能亲手跑通一个像样的前端应用。
+Vue Frontend Learning Starter 是一个适合前端初学者练手的完整小项目。它以抹茶商品展示和购物流程为例，把日常前端开发中常见的页面、组件、路由、状态管理、类型定义、样式组织和构建部署串在一起，让你不只“看语法”，而是能亲手跑通一个像样的前端应用。
 
 如果你正在学习 Vue、TypeScript、Vite 或前端项目结构，这个仓库可以作为一个温和但实用的起点：代码量不夸张，功能也不空洞，适合边看边改、边运行边理解。
 
@@ -63,7 +63,7 @@ npm run typecheck # 运行 vue-tsc 类型检查
 ## 项目结构
 
 ```text
-tea/
+vue-frontend-learning-starter/
 |-- public/
 |-- src/
 |   |-- assets/styles/     # 全局样式

@@ -1,8 +1,8 @@
-# Tea Frontend Starter
+# Vue Frontend Learning Starter
 
 > A Vue 3 practice project that helps beginners quickly learn frontend software development.
 
-Tea Frontend Starter is a complete beginner-friendly frontend project. It uses a matcha storefront as the example and connects common frontend skills in one place: pages, components, routing, state management, TypeScript types, styling, build scripts, and deployment.
+Vue Frontend Learning Starter is a complete beginner-friendly frontend project. It uses a matcha storefront as the example and connects common frontend skills in one place: pages, components, routing, state management, TypeScript types, styling, build scripts, and deployment.
 
 If you are learning Vue, TypeScript, Vite, or frontend project structure, this repository is meant to be a gentle but practical starting point. The codebase is small enough to read and complete enough to modify with confidence.
 
@@ -61,7 +61,7 @@ npm run typecheck # run vue-tsc
 ## Project Structure
 
 ```text
-tea/
+vue-frontend-learning-starter/
 |-- public/
 |-- src/
 |   |-- assets/styles/
