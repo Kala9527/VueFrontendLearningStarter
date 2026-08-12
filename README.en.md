@@ -65,14 +65,6 @@ maccha-garden/
 `-- vite.config.ts
 ```
 
-## Naming
-
-The repository can stay as `tea`, but the public-facing project name is now **Maccha Garden**. If you rename the GitHub repository later, good candidates are:
-
-- `maccha-garden`
-- `matcha-storefront`
-- `vue-matcha-commerce`
-
 ## Dependency Policy
 
 Generated and machine-specific files are intentionally ignored:
