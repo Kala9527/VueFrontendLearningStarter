@@ -1,108 +1,74 @@
-# Vue Frontend Learning Starter
+﻿# Vue Frontend Learning Starter
 
-> A Vue 3 practice project that helps beginners quickly learn frontend software development.
+[中文说明](./README.cn.md)
 
-Vue Frontend Learning Starter is a complete beginner-friendly frontend project. It uses a matcha storefront as the example and connects common frontend skills in one place: pages, components, routing, state management, TypeScript types, styling, build scripts, and deployment.
+> Beginner-friendly Vue 3 + TypeScript + Vite starter app for learning real frontend project structure.  
 
-If you are learning Vue, TypeScript, Vite, or frontend project structure, this repository is meant to be a gentle but practical starting point. The codebase is small enough to read and complete enough to modify with confidence.
+This repository is packaged to be easy to **star, fork, run, remix, and contribute to**. It keeps a dedicated English version for global GitHub discovery, with a separate Chinese version linked above.
 
-## What You Can Learn
+## Why Star This
 
-- Build a single-page app with Vue 3, TypeScript, and Vite.
-- Organize pages with Vue Router.
-- Manage cart state with Pinia.
-- Create reusable components such as product cards.
-- Define product, category, and cart types with TypeScript.
-- Keep styles organized with a shared visual system.
-- Run local development, type checking, production builds, and previews.
+- Practical project idea with a clear real-world use case.
+- Small enough to fork, study, and customize quickly.
+- English-first bilingual README for both global and Chinese-speaking developers.
+- Clean setup instructions, project structure, roadmap, and contribution entry points.
+- Built around popular GitHub themes such as AI tools, TypeScript, developer tools, local-first apps, automation, and indie-friendly workflows when relevant.
+
+## What It Does
+
+Beginner-friendly Vue 3 + TypeScript + Vite starter app for learning real frontend project structure.
 
 ## Highlights
 
-- Beginner-friendly structure.
-- Complete demo flow: home, product list, product detail, cart, login, and register pages.
-- Modern stack: Vue 3, TypeScript, Vite, Pinia, and Vue Router.
-- Easy to extend with search, filters, checkout, favorites, or real APIs.
-- Suitable for learning records, coursework, and portfolio demos.
+- Beginner-friendly project structure
+- Pages for product list, detail, cart, login, and registration flows
+- Pinia state management example
+- Reusable component and typed data examples
+- Good base for assignments, portfolios, and tutorials
 
 ## Tech Stack
 
-- Vue 3
-- TypeScript
-- Vite
-- Vue Router
-- Pinia
-- Lucide Vue
+`	ext
+Vue 3, TypeScript, Vite, Vue Router, Pinia
+`
 
 ## Quick Start
 
-Install Node.js 20 or later first.
-
-```bash
-npm install
-npm run dev
-```
-
-Build and preview:
-
-```bash
-npm run build
-npm run preview
-```
-
-## Scripts
-
-```bash
-npm run dev       # start local dev server
-npm run build     # type-check and build production assets
-npm run preview   # preview production build
-npm run typecheck # run vue-tsc
-```
+`ash
+npm install`nnpm run dev`n`nnpm run typecheck`nnpm run build`nnpm run preview
+`
 
 ## Project Structure
 
-```text
-vue-frontend-learning-starter/
-|-- public/
-|-- src/
-|   |-- assets/styles/
-|   |-- components/
-|   |-- data/
-|   |-- router/
-|   |-- stores/
-|   |-- types/
-|   `-- views/
-|-- index.html
-|-- package.json
-|-- tsconfig.json
-`-- vite.config.ts
-```
+`	ext
+.
+|-- src/ or app/          Main source code
+|-- public/ or assets/    Static assets when available
+|-- docs/                 Notes, specs, or deployment docs when available
+|-- README.md             English-first bilingual project guide
+-- package / project files
+`
 
-## Practice Ideas
+## Deployment / Packaging
 
-- Change the product theme to coffee, books, digital products, or game items.
-- Add category filters, keyword search, and sorting.
-- Improve the cart with quantity controls, coupons, shipping, and checkout.
-- Replace static data with a real API.
-- Deploy the app to GitHub Pages, Vercel, or Netlify.
+- Do not commit generated builds, local databases, API keys, private logs, or large media files.
+- For frontend projects, deploy the production dist/ folder to GitHub Pages, Vercel, Netlify, Nginx, or package it with DistDesktopLauncher.
+- For desktop/mobile projects, publish only release artifacts from a clean build environment.
+- Keep configuration examples public and real credentials private.
 
-## Deployment
+## Roadmap
 
-Build static files:
+- [ ] API mock layer
+- [ ] Testing examples
+- [ ] More beginner exercises
+- [ ] GitHub Pages deployment guide
 
-```bash
-npm run build
-```
+## Contributing
 
-The output is written to `dist/` and can be uploaded to any static hosting service. This repository does not commit `node_modules/`, `dist/`, local IDE settings, or OS cache files. Run `npm install` after cloning to restore dependencies.
+Issues and pull requests are welcome. Useful contributions include better screenshots, demos, docs, templates, presets, provider guides, compatibility fixes, tests, and translations.
 
-## A Note For Beginners
+If this project helps you, a star and fork make it easier for more people to discover it.
 
-Frontend learning often feels like understanding each concept separately but not knowing how to put them together. This project gives you something you can run, read, break, fix, and reshape. Start small, keep experimenting, and the structure will become clearer with every change.
 
-## Thanks
 
-Thank you for visiting this project. It is made to help beginners take practical steps into frontend development. If it helps you, a Star, Fork, issue, or suggestion would mean a lot and will encourage me to create more beginner-friendly projects.
 
-## License
-
-MIT
